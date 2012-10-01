@@ -25,7 +25,7 @@
 
 __all__ = ('skeleton', 'sanitize')
 
-from bson.binary import Binary
+from bson.binary import Binary, UUID
 from bson.code import Code
 from bson.dbref import DBRef
 from bson.errors import InvalidDocument
@@ -49,6 +49,7 @@ BSON_TYPES = set([
     Binary,
     DBRef,
     SON,
+    UUID,
 ])
 
 
