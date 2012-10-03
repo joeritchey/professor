@@ -29,7 +29,7 @@ from professor import app as application
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--port', help='Port number to run development server [8080]', default=8080, type=int)
+    parser.add_argument('-p', '--port', help='Port number to run development server [8080]', default=8000, type=int)
     parser.add_argument('-b', '--bind-ip', help='IP address run development server [0.0.0.0]', default='0.0.0.0')
     parser.add_argument('-d', '--debug', help='Run development server in debug mode [false]', default=False, action='store_true')
 
